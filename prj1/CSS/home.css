@@ -1,0 +1,274 @@
+.logo21{
+    margin-top: 20px;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+
+.logo a{
+    color: #3282ad;
+}
+.logo{
+    margin-left: 20px;
+    
+
+}
+.get-started-btn-1 {
+    margin-left: 22px;
+    /* background: #5fcf80; */
+    background: transparent;
+    color: #000000;
+    width: 150px;
+    border-radius: 50px;
+    padding: 8px 20px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    border: none;
+    padding-left: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started-btn-1:hover {
+    cursor: pointer;
+}
+
+
+
+.get-started-btn {
+    margin-left: 22px;
+    background: #3282ad;
+    color: #fff;
+    width: 150px;
+    border-radius: 50px;
+    white-space: nowrap;
+    transition: 0.3s;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.get-started-btn:hover {
+    cursor: pointer;
+}
+
+
+.header_bg {
+    /* Rectangle 15 */
+
+
+    position: absolute;
+    height: 848px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: linear-gradient(180deg, #E5F8FE 14.25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.ractangle14 {
+    /* Rectangle 16 */
+    position: absolute;
+    width: 197px;
+    height: 64px;
+    left: 70px;
+    top: 29px;
+
+    /* dark-light blue */
+    background: #D2F4FF;
+    border-radius: 44px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ractangle14BottonText {
+    position: absolute;
+    width: 197px;
+    height: 64px;
+    left: 50px;
+    top: 100px;
+    font-size: 100px;
+}
+
+.girlSvg {
+    /* right: 20px; */
+}
+
+.btndISC {
+    left: 50px;
+
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+}
+
+.travel-container {
+    box-shadow: 0 0 10px #d8e8f0;
+    border-radius: 10px;
+}
+
+/* 3282ad */
+
+
+
+.inputBorderRemove {
+    border: none;
+    outline: none;
+
+}
+
+
+/* fieldset legend{
+    font-size: 20px;
+    font-style: normal;
+    background-color: red;
+} */
+
+legend.scheduler-border {
+    font-size: 5px;
+    font-style: normal;
+}
+
+.ReadyToExplore {
+    background-color: #55b0c9;
+}
+
+.footerBox {
+    background-color: #000000;
+}
+
+.footerLast {
+    background-color: #4eabc5;
+}
+
+.footer-tab-head {
+    margin: 30px 0;
+}
+
+
+.footer-logo-social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-logo-social-icon-span {
+    width: 100px;
+    background-color: transparent;
+    padding: 5px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.footer-copyright-tag {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* .zMain{
+    position: absolute;
+}
+
+.footerBoxOver3{
+    position: absolute;
+    background-color: rebeccapurple;
+    width: 100%;
+
+
+}
+
+.asdf{
+    height: 500px;
+    z-index: 3;
+} */
+
+.ab1 {
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    padding-top: 20px;
+
+
+}
+
+
+.aab1 {
+    color: #fff;
+    display: flex;
+    position: static;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+
+}
+
+.place-rating{
+    display: flex;
+    justify-content:space-between;
+}
+
+.place-rating div span{
+    font-weight: 600;
+}
+
+.button-center {
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-center2 {
+    /* background: #000; */
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.getExpBtn{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 15%;
+    /* -ms-flex-item-align: center; */
+
+}
+
+.what-client-say-pic{
+    border-radius: 50%;
+}

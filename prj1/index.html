@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="CSS/home.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <title>GOL website</title>
+</head>
+
+<body>
+
+    <section class="header_bg">
+        <!-- Nav Section -->
+        <section>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary logo21">
+                <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">GOL</a> -->
+                    <h1 class="logo me-auto"><a href="#">GOL</a></h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link">Find Reservation</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Packages
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    About Lakshadweep
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">GoI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Support</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                            <button class=" get-started-btn-1" type="submit">Login</button>
+                            <button class=" get-started-btn" type="submit">Search</button>
+                            <!-- <a class="get-started-btn text-white">Get Started</a> -->
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Hero 1 -->
+        <section>
+            <div class="container-fluid " style="justify-content: space-between;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="ractangle14 text-center pt-2 font" style="font-size: 30px;">Visit 🏹</div>
+                        <div class="ractangle14BottonText pt-5">
+                            <h1 class=" display-6 font-weight-bold">The Exotic</h1>
+                            <h1 class="text-info display-6 font-weight-bold">Lakshadweep</h1>
+                            <h1 class=" display-6 font-weight-bold">Islands</h1>
+                            <button class="btn btn-outline-info p-2 btndISC">Discover Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="girlSvg mr-1" style="border-radius: 25px; width: 200px;">
+                            <img class="ml-lg-5" src="./assests/gir1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flying section -->
+
+            <section>
+                <div class="container bg-white travel-container">
+                    <div style="font-size: 25px; padding:  20px 10px;">Where are you flying?</div>
+                    <div class="row ">
+                        <div class="col-md-3">
+                            <fieldset class="scheduler-border">
+                                <legend class="scheduler-border font-weight-bold ">From - To</legend>
+                                <div class="control-group">
+                                    <div class=" controls bootstrap-timepicker">
+                                        <input class="inputBorderRemove" type="text" class="datetime" id="startTime"
+                                            name="startTime" placeholder="Lahore - Karachi" />
+                                        <i class="icon-time"></i>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-3 w-25">
+                            <fieldset class="scheduler-border ">
+                                <legend class="scheduler-border">Trip</legend>
+                                <div class="control-group">
+                                    <div class="controls bootstrap-timepicker">
+                                        <!-- <input class="inputBorderRemove"  type="text" class="datetime" id="startTime" name="startTime"
+                                            placeholder="Start Time" /> -->
+
+                                        <select class="inputBorderRemove" name="tripType" id="">
+                                            <option value="Return">Return </option>
+                                        </select>
+                                        <i class="icon-time"></i>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-3">
+                            <fieldset class="scheduler-border ">
+                                <legend class="scheduler-border">Depart- Return</legend>
+                                <div class="control-group">
+                                    <div class="controls bootstrap-timepicker">
+                                        <input class="inputBorderRemove" type="text" class="datetime" id="startTime"
+                                            name="startTime" placeholder="Start Time" />
+                                        <i class="icon-time"></i>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-3">
+                            <fieldset class="scheduler-border">
+                                <legend class="scheduler-border">Passenger - Class</legend>
+                                <div class="control-group">
+                                    <!-- <label class="control-label input-label" for="startTime">Start :</label> -->
+                                    <div class="controls bootstrap-timepicker">
+                                        <input class="inputBorderRemove" type="text" class="datetime" id="startTime"
+                                            name="startTime" placeholder="Start Time" />
+                                        <i class="icon-time"></i>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end p-3">
+                        <button class="btn bg-white me-md-2" type="button" style=" background-color: transparent;">+ Add
+                            Promo Code</button>
+                        <button class="btn btn-info" type="button" class="btn btn-info p-2 w-7" style="width: 125px;">↗️
+                            Show Flights</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Package section -->
+
+            <section>
+                <div class="container mt-5">
+                    <h1 class="text-center"> Best Package for You</h1>
+                    <p class="text-center mb-5">lorem ipsum is the best dummy text for developer</p>
+                    <div class="row border rounded" style="border-radius: 5px solid grey;">
+                        <div class="col-md-3 card p-4 bg-info text-white font-weight-bold text-center">Maldeves</div>
+                        <div class="col-md-2 card p-4 text-info font-weight-bold text-center">Samudram</div>
+                        <div class="col-md-3 card p-4 text-info font-weight-bold text-center">Cordelia</div>
+                        <div class="col-md-2 card p-4 text-info font-weight-bold text-center">Agatti</div>
+                        <div class="col-md-2 card p-4 text-info font-weight-bold text-center">More</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Card section -->
+            <section>
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 22rem;">
+                                <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="place-rating">
+                                        <div>
+                                            <h5 class="card-title">Indonesia</h5>
+                                        </div>
+                                        <div>
+                                            <span> ⭐4.5</span>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content...</p>
+                                        <div class="button-center">
+                                            <a href="#" class="btn btn-info">Go somewhere</a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 22rem;">
+                                <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="place-rating">
+                                        <div>
+                                            <h5 class="card-title">Indonesia </h5>
+                                        </div>
+                                        <div>
+                                            <span> ⭐4.5</span>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content...</p>
+
+                                    <div class="button-center">
+                                        <a href="#" class="btn btn-info">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 22rem;">
+                                <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="place-rating">
+                                        <div>
+                                            <h5 class="card-title">Indonesia </h5>
+                                        </div>
+                                        <div>
+                                            <span> ⭐4.5</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content....</p>
+                                        <div class="button-center">
+                                            <a href="#" class="btn btn-info">Go somewhere</a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Discover More -->
+            <section>
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <button class="btn btn-outline-info p-3 m-5">Discover More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Island Stays -->
+
+            <section>
+                <div class="container mt-5">
+                    <h1 class="text-center mb-3">Island Stays</h1>
+                    <p class="text-center mx-2 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+                        similique sapiente! Hic id voluptatem porro temporibus reprehenderit at atque est molestias.
+                        Quibusdam, quaerat qui itaque voluptatum sit accusantium voluptate repellat!</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 22rem;">
+                                <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Indonesia</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content...</p>
+                                        <div class="place-rating">
+                                            <div>
+                                                <p class="card-title">⭐<b>4.5</b> (1.5k Review)</p>
+                                            </div>
+                                            <div>
+                                            <a href="#" class="btn btn-info">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 22rem;">
+                                <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Indonesia</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content...</p>
+                                        <div class="place-rating">
+                                            <div>
+                                                <p class="card-title">⭐<b>4.5</b> (1.5k Review)</p>
+                                            </div>
+                                            <div>
+                                            <a href="#" class="btn btn-info">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 22rem;">
+                                <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Indonesia</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content....</p>
+                                        <div class="place-rating">
+                                            <div>
+                                                <p class="card-title">⭐<b>4.5</b> (1.5k Review)</p>
+                                            </div>
+                                            <div>
+                                            <a href="#" class="btn btn-info">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section>
+                <div class="container mt-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 22rem;">
+                                <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Indonesia</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content...</p>
+                                        <div class="place-rating">
+                                            <div>
+                                                <p class="card-title">⭐<b>4.5</b> (1.5k Review)</p>
+                                            </div>
+                                            <div>
+                                            <a href="#" class="btn btn-info">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 22rem;">
+                                <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Indonesia</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content...</p>
+                                        <div class="place-rating">
+                                            <div>
+                                                <p class="card-title">⭐<b>4.5</b> (1.5k Review)</p>
+                                            </div>
+                                            <div>
+                                            <a href="#" class="btn btn-info">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 22rem;">
+                                <img src="https://picsum.photos/500/500" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Indonesia</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content....</p>
+                                        <div class="place-rating">
+                                            <div>
+                                                <p class="card-title">⭐<b>4.5</b> (1.5k Review)</p>
+                                            </div>
+                                            <div>
+                                            <a href="#" class="btn btn-info">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ready To Explore -->
+            <section>
+                <div class="container mt-5 text-white rounded ReadyToExplore">
+                    <div class="row p-5">
+                        <div class="col-md-6">
+                            <h1>Let's Ready to Explore The World with Us</h1>
+                            <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, atque?
+                                This is the best website</p>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <div class="getExpBtn">
+
+                                <button class="btn btn-outline-white">
+                                    Contact Us
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- What Our Client Says -->
+            <section style="margin-bottom:300px;">
+                <div class="container mt-5">
+                    <h1 class="text-center">What Our Client Says</h1>
+                    <h1 class="text-center">About Us</h1>
+                    <div class="row text-center mt-5 pb-2">
+                        <div class="col-md-4 card ">
+                            <img class="what-client-say-pic" src="/assests/gir1.png" alt="">
+                            <h3>Roman Rey</h3>
+                            <h6>Tronto, Canada</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim exercitationem tenetur
+                                expedita itaque cum voluptas sequi, alias officiis optio iusto esse, vero ipsam pariatur
+                                autem ex obcaecati magni sed labore.</p>
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <div class="col-md-4 card">
+                            <img class="what-client-say-pic" src="/assests/gir1.png" alt="">
+                            <h3>Alex Tom</h3>
+                            <h6>Tronto, Canada</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, impedit officia velit in,
+                                temporibus optio ipsam necessitatibus ullam libero consectetur alias enim, vitae minima
+                                omnis repellat. Accusamus reiciendis odit aliquam.</p>
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <div class="col-md-4 card">
+                            <img class="what-client-say-pic" src="/assests/gir1.png" alt="">
+                            <h3>Finn Balor</h3>
+                            <h6>Tronto, Canada</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quas ipsum inventore
+                                praesentium tempore officiis cumque odit fugit ullam. Tempora, blanditiis. Quod
+                                architecto magnam, eveniet nulla quibusdam ducimus. Consequatur, ducimus.</p>
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Section -->
+            <section>
+                <div class="ab1">
+                    <div class="aab1">
+                        <div class="col-md-6 ">
+                            <h5>
+                                Download Our App
+                            </h5>
+                            <p>The best travel in the World</p>
+                            <button class="btn m-2 mt-2">Google Play</button>
+
+                        </div>
+                        <span class="col-md-6 ">
+                            mobile section
+                        </span>
+                    </div>
+                </div>
+                <div class="  footerBoxOver3">
+                    <div class="row w-25">
+                        <div class="col-md-6 text-white asdf">
+                            <h1 style="color: transparent;">Download Our App</h1>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section style="margin-top: 40px;">
+                <div class="container-fluid footerLast text-white">
+                    <div class="row " style="height: 100px;"></div>
+                    <div class="row ">
+                        <div class="col-md-3">
+                            <div class="footer_logo footer-tab-head">
+                                <h2 style="font-size: 30px;">GOL</h2>
+                            </div>
+                            <div class="footer-logo-slog">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad commodi.</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 ">
+                            <h5 class="footer-tab-head">Company</h5>
+                            <div>
+                                <p>Events</p>
+                                <p>Blogs</p>
+                                <p>FAQ</p>
+                                <p>Join US</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <h5 class="footer-tab-head">About</h5>
+                            <div>
+                                <p>Project</p>
+                                <p>Lorem</p>
+                                <p>Device</p>
+                                <p>Our Story</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <h5 class="footer-tab-head">Contact Us</h5>
+                            <div>
+                                <p>travelindia@gmail.com</p>
+                                <p>India</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="footer-logo-social-icon">
+                            <span class="footer-logo-social-icon-span">FB ♥️</span>
+                            <span class="footer-logo-social-icon-span">TW ♥️</span>
+                            <span class="footer-logo-social-icon-span">IN ♥️</span>
+                            <span class="footer-logo-social-icon-span">LD ♥️</span>
+                        </div>
+                    </div>
+                    <hr style="padding:  0 100px; background-color: #fff;">
+
+                    <div class="footer-copyright-tag">
+                        <p> Copyright ©️ 2023 GoL Travels Private Limited. All Rights Reserverd.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
