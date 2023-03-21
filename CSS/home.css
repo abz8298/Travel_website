@@ -1,18 +1,21 @@
-.logo21{
+.logo21 {
     margin-top: 20px;
 }
-.logo a:hover{
+
+.logo a:hover {
     text-decoration: none;
 }
 
-.logo a{
+.logo a {
     color: #3282ad;
 }
-.logo{
+
+.logo {
     margin-left: 20px;
-    
+
 
 }
+
 .get-started-btn-1 {
     margin-left: 22px;
     /* background: #5fcf80; */
@@ -237,12 +240,12 @@ legend.scheduler-border {
 
 }
 
-.place-rating{
+.place-rating {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.place-rating div span{
+.place-rating div span {
     font-weight: 600;
 }
 
@@ -260,7 +263,7 @@ legend.scheduler-border {
     justify-content: left;
 }
 
-.getExpBtn{
+.getExpBtn {
     display: flex;
     justify-content: right;
     align-items: center;
@@ -269,6 +272,99 @@ legend.scheduler-border {
 
 }
 
-.what-client-say-pic{
+.what-client-say-pic {
     border-radius: 50%;
+}
+
+
+
+/* ABOUT CSS */
+
+.aboutSection {
+    margin-top: 250px;
+    text-align: center;
+    justify-content: center;
+}
+
+.ourTeam {
+    margin-top: 350px;
+    background-color: #F7FDFF;
+}
+
+.iconBox {
+    margin-top: 190px;
+    /* justify-content: space-between; */
+    list-style: none;
+}
+
+.CustomerSaying {
+    background-color: #F7FDFF;
+}
+
+.zxcvbnm {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    background-color: transparent;
+    height: 705px;
+
+}
+
+.asdfg img {
+    width: 273px;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 6px;
+}
+
+
+
+
+/* GOI SECTION */
+
+.inputButton {
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 480px;
+}
+
+.inputRound {
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.packageOverview {
+    margin-top: 150px;
+}
+
+.stylePackage {
+    background: #FFFFFF;
+    /* shadow effect-blue */
+
+    box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+    border-radius: 5px;
+}
+
+.stylePackage2 {
+    background: #FFFFFF;
+    /* shadow effect-blue */
+
+    box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+    border-radius: 5px;
+
+
+}
+
+
+.memorabelHoliday {
+    /* light blue */
+
+    background: #F7FDFF;
+    /* shadow effect-blue */
+
+    box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+    border-radius: 5px 5px 0px 0px;
+
 }
